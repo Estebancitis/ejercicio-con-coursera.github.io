@@ -1,0 +1,28 @@
+/* Estilos adicionales para centrar las imágenes y colocar el texto encima */
+.about-images {
+    text-align: center;
+}
+
+.about-images img {
+    display: inline-block;
+    width: 300px; /* Ajusta el ancho de las imágenes según sea necesario */
+    height: auto;
+    margin: 20px; /* Espacio entre las imágenes */
+    position: relative;
+}
+
+.about-images img::before {
+    content: attr(alt);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos adicionales para centrar el título h1 */
+h1 {
+    text-align: center;
+}
