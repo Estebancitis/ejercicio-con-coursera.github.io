@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mangata & Gallo</title>
+    <meta name="description" content="A brief description">
+    <meta name="author" content="Mangata & Gallo Luxury Jewelry">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    /* Estilos adicionales para centrar las imágenes y colocar el texto encima */
+    .about-images {
+        text-align: center;
+    }
+
+    .about-images img {
+        display: inline-block;
+        width: 400px; /* Ajusta el ancho de las imágenes según sea necesario */
+        height: auto;
+        margin: 20px; /* Espacio entre las imágenes */
+        position: relative;
+    }
+
+    .about-images img::before {
+        content: attr(alt);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+</style>
+</head>
+
+<body>
+<header>
+    <img src="logo.png" alt="Logotipo de Mangata & Gallo" style="width: 520px; height: 80px;">
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="About us.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="about">
+        <h1>Who we are and what are our values</h1>
+        <p>Welcome to Mangata & Gallo, your ultimate destination for luxury jewelry. Our journey began with a vision to create exquisite pieces that not only adorn but also narrate stories of elegance, sophistication, and timeless beauty.</p>
+        <p>At Mangata & Gallo, we pride ourselves on sourcing the finest materials from around the globe, ensuring each gemstone and metal is ethically acquired and meticulously crafted into works of art by skilled artisans.</p>
+        <p>Our commitment to quality extends beyond our products; it's ingrained in every facet of our business, from our sustainable practices to our exceptional customer service. We invite you to explore our world of luxury and discover the allure of Mangata & Gallo.</p>
+        <div class="about-images">
+            <img src="team.jpg" alt="Our Team">
+            <img src="craftsmanship.jpg" alt="Craftsmanship">
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer-logo">
+        <a href="Index.html"><img src="logofooter.png" alt="Logo de Mangata & Gallo" style="width: 120px; height: 40px;"></a>
+    </div>
+    <div class="footer-copyright">
+        <p>&copy; Copyright Mangata & Gallo 2024 - All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+
+</html>
+
